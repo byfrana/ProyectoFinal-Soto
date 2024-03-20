@@ -125,19 +125,19 @@ p {
 	height: auto;
 }
 
-card {
+.card {
 	margin-bottom: 50px;
 }
-card h3 {
+.card h3 {
 	font-size: 20px;
 	font-weight: 400;
 	text-align: left;
 }
-card p {
+.card p {
 	text-align: left;
 	font-size: 12px;
 }
-card button {
+.card button {
 	background: #2e1414;
 	color: white;
 	text-transform: uppercase;
@@ -148,7 +148,7 @@ card button {
 	transition: color 0.3s ease, background 0.3s ease;
 	cursor: pointer;
 }
-card button:hover {
+.card button:hover {
 	background: white;
 	color: #2e1414;
 }
