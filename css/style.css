@@ -1,0 +1,207 @@
+/* Reset */
+*,
+:after,
+:before {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+:hover {
+	outline: 0;
+}
+
+iframe,
+img {
+	border: 0;
+}
+
+dl,
+ol,
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+/* General */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 1.8;
+	font-weight: 400;
+}
+p {
+	margin-bottom: 20px;
+}
+dl dt {
+	font-weight: 600;
+}
+
+#top {
+	background: #2e1414;
+	color: white;
+	padding: 150px 50px;
+}
+h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	text-align: left;
+	border-left: 1px solid white;
+	padding-left: 30px;
+	font-weight: 300;
+	line-height: 1.1;
+}
+h1 span {
+	display: block;
+	font-size: 35px;
+}
+h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: left;
+	border-left: 1px solid white;
+	font-weight: 300;
+	line-height: 1.1;
+	margin-bottom: 50px;
+}
+p {
+	margin-bottom: 1em;
+}
+
+#form {
+	padding: 150px 50px;
+	text-align: center;
+}
+#formulario {
+	width: 500px;
+	border: 1px solid #2e1414;
+	margin: 0 auto;
+	padding: 20px;
+}
+#formulario div label {
+	width: 100%;
+	display: block;
+}
+#formulario div input {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	padding: 0 6px;
+	margin-bottom: 20px;
+}
+#formulario button {
+	display: block;
+	margin: 0 auto;
+	background: #2e1414;
+	color: white;
+	padding: 6px 12px;
+	font-size: 16px;
+}
+
+.content {
+	max-width: 1440px;
+	margin: 150px auto;
+	padding: 0 50px;
+}
+#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 30px;
+}
+#grid img {
+	width: 100%;
+	height: auto;
+}
+
+card {
+	margin-bottom: 50px;
+}
+card h3 {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: left;
+}
+card p {
+	text-align: left;
+	font-size: 12px;
+}
+card button {
+	background: #2e1414;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	border: 1px solid #2e1414;
+	padding: 6px 12px;
+	transition: color 0.3s ease, background 0.3s ease;
+	cursor: pointer;
+}
+card button:hover {
+	background: white;
+	color: #2e1414;
+}
+#carrito {
+	width: 350px;
+	display: flex;
+	flex-wrap: wrap;
+}
+#carrito div {
+	display: flex;
+	width: 100%;
+	justify-content: end;
+	align-items: baseline;
+}
+#carrito button {
+	padding: 3px 6px;
+	font-size: 10px;
+	background: #2e1414;
+	color: white;
+	text-transform: uppercase;
+	margin-left: 10px;
+	cursor: pointer;
+	transition: color 0.3s ease, background 0.3s ease;
+}
+#carrito button:hover {
+	background: white;
+	color: #2e1414;
+}
+.total {
+	width: 350px;
+	text-align: right;
+	padding-right: 34px;
+	border-top: 1px solid #2e1414;
+}
+#total span {
+	display: block;
+}
+#total span.bold {
+	font-weight: 600;
+}
+#btn-comprar {
+	background: #2e1414;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 400;
+	border: 1px solid #2e1414;
+	padding: 6px 12px;
+	transition: color 0.3s ease, background 0.3s ease;
+	cursor: pointer;
+	margin-left: 120px;
+}
+#btn-comprar:hover {
+	background: white;
+	color: #2e1414;
+}

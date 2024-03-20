@@ -1,0 +1,11 @@
+[
+	{ "codigo": 1, "nombre": "Jason Wu", "precio": 35000, "img": "01-Jason-wu.jpg" },
+	{ "codigo": 2, "nombre": "Altuzarra", "precio": 28000, "img": "02-Altuzarra.jpg" },
+	{ "codigo": 3, "nombre": "Thakon", "precio": 32000, "img": "03-Thakoon.jpg" },
+	{ "codigo": 4, "nombre": "Dolce & Gabbana", "precio": 32000, "img": "04-DolceGabbana.jpg" },
+	{ "codigo": 5, "nombre": "Osman", "precio": 30000, "img": "05-Osman.jpg" },
+	{ "codigo": 6, "nombre": "Tagliapietra", "precio": 28000, "img": "06-Tagliapietra.jpg" },
+	{ "codigo": 7, "nombre": "Versace", "precio": 30000, "img": "07-Versace.jpg" },
+	{ "codigo": 8, "nombre": "Chanel", "precio": 26000, " img": "08-Chanel.jpg" },
+	{ "codigo": 9, "nombre": "Burberry", "precio": 40000, "img": "10-Burberry.jpg" }
+]
